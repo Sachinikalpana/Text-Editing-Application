@@ -9,7 +9,7 @@
             <button onclick="format('bold')"><b> B </b></button>
             <button onclick="format('underline')"><u> U </u></button>
             <button onclick="format('italic')"><i> I </i></button>
-            
+
             <div class="colorPickerContainer">
                 <button onclick="document.getElementById('fontColor').click()" title="Font Color">
                 <i class="fas fa-fill-drip"></i>
@@ -17,6 +17,10 @@
                 <input type="color" id="fontColor" value="black"/>      
             </div>
 
+            <button onclick="format('justifyLeft')" title="Align Left"><i class="fa fa-align-left"></i></button>
+            <button onclick="format('justifyCenter')" title="Align Center"><i class="fa fa-align-center"></i></button>
+            <button onclick="format('justifyRight')" title="Align Right"><i class="fa fa-align-right"></i></button>
+            <button onclick="format('justifyFull')" title="Justify"><i class="fa fa-align-justify"></i></button>
 
         </div>
     </body>

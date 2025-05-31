@@ -23,7 +23,7 @@ body{
 }
 
 .toolbar i{
-    font-size: 18px;
+    font-size: 18px;    /* This is to have the same font size for thr text/icons that are in the <i> tag */
 }
 
 .colorPickerContainer {
